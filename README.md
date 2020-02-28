@@ -1,2 +1,3 @@
 # -PuppeteerAutomatedTestingContinuation
-This is a continuation from  PuppeteerAutomatedTesting Udemy Class
+
+This is a continuation from PuppeteerAutomatedTesting Udemy Class.
