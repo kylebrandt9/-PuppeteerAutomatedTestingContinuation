@@ -1,0 +1,27 @@
+{
+  "name": "puppeteerautomatedtestingcontinuation",
+  "version": "1.0.0",
+  "description": "test framework using jest and puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylebrandt9/PuppeteerAutomatedTestingContinuation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylebrandt9/PuppeteerAutomatedTestingContinuation/issues"
+  },
+  "homepage": "https://github.com/kylebrandt9/PuppeteerAutomatedTestingContinuation#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^2.1.1"
+  }
+}
