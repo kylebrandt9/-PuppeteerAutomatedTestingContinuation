@@ -3,7 +3,7 @@ import LoginPage from '../pages/LoginPage';
 import FeedbackPage from '../pages/FeedbackPage';
 import TopBar from '../pages/componets/TopBar';
 
-describe('example', () => {
+describe('End-To-End Test', () => {
 	let homepage;
 	let topbar;
 	let loginpage;
@@ -25,14 +25,14 @@ describe('example', () => {
 		await homepage.isNavbarDisplayed();
 		await topbar.isTopBarDisplayed();
 	});
-	/*
+
 	it('Try to login', async () => {
 		await loginpage.visit();
 		await loginpage.isLoginFormDisplayed();
 		await loginpage.login('username', 'password');
 		await loginpage.wait(5000);
 	});
-	*/
+
 	it('FeedBack should work', async () => {
 		await feedbackpage.visit();
 		await feedbackpage.isFeedbackFormDisplayed();
@@ -42,6 +42,6 @@ describe('example', () => {
 			'testing Subject',
 			'Test Comment'
 		);
-		await feedbackpage.wait(5000);
+		//await feedbackpage.wait(5000);
 	});
 });
